@@ -83,12 +83,15 @@ def get_readable_time(seconds: int) -> str:
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PM_START_PIC = "https://telegra.ph/file/90bd376bb7a6d1539137d.mp4"
+PM_START_PIC = "https://telegra.ph/file/52715f72b6d72144e5790.mp4"
 
 PM_START_TEXT ="""
-Heya {} , My name is Miku - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+やあ  "How did I end up following a Captain like this" {} - San!
+I am Shanks, also known as "Red Haired Shanks", I am The captain of The Red Hair Pirates.
+Now That You Pointed The Gun, Would You Risk Your Life For It?!
 
-Join my [News Channel](https://t.me/MikuBotUpdates) to get information on all the latest updates. """
+
+Join our [Group Chat](https://t.me/Void_ivq) to chat about anime and stuff. """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -348,8 +351,8 @@ def akashabout_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/Suzune_Support"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/Shanks_Support"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Shanks_updates"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="akash"),
@@ -428,7 +431,7 @@ def Source_about_callback(update, context):
                 escape_markdown(first_name)),
                 reply_markup=InlineKeyboardMarkup([
                  [
-                    InlineKeyboardButton(text="ADD ME", url="https://t.me/MikuProBot?startgroup=true")
+                    InlineKeyboardButton(text="Add me Else You Gay", url="https://t.me/ShanksRobot?startgroup=true")
                  ]
                 ]),
                 parse_mode=ParseMode.MARKDOWN,
@@ -708,14 +711,14 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""Am Back to my job[.](https://telegra.ph/file/85fda588c0fb419756b81.jpg)""",
+                f"""Ready To Sail![.](https://telegra.ph/file/8f2641bc79d9b28a275e2.jpg)""",
                 parse_mode=ParseMode.MARKDOWN, 
                 reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
                              text="✦ ᴀᴅᴅ ᴍᴇ ✦",
-                             url="https://t.me/MikuProRobot?startgroup=true")
+                             url="https://t.me/shanksRobot?startgroup=true")
                      ] 
                 ]
             ), 
