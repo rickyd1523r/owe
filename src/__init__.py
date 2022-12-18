@@ -212,7 +212,7 @@ else:
 DRAGONS.add(Owner)
 DEVS.add(Owner)
 DEVS.add(5491471803)
-DEVS.add(5122071509)
+DEVS.add(5465875229)
 
 SYL = Sylviorus()
 
