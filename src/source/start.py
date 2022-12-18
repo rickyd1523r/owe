@@ -8,7 +8,7 @@ from pyrogram import __version__ as pyrover
 from src.events import register
 from src import telethn as tbot
 
-VENOM = "https://telegra.ph/file/e3cd9302d6c371593c50d.mp4"
+VENOM = "https://telegra.ph/file/52715f72b6d72144e5790.mp4"
 
 @register(pattern=("/start"))
 async def awake(event):
