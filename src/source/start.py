@@ -12,7 +12,9 @@ VENOM = "https://telegra.ph/file/e3cd9302d6c371593c50d.mp4"
 
 @register(pattern=("/start"))
 async def awake(event):
-  TEXT = f"Heya [{event.sender.first_name}](tg://user?id={event.sender.id}), My name is Miku - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.\n\n"
-  TEXT += "Join my [News Channel](https://t.me/MikuBotUpdates) to get information on all the latest updates."
-  BUTTON = [[Button.url("➕Add Me To Your Group➕", "https://t.me/mikuprorobot?startgroup=true"),]]
+  TEXT = f"Heya [{event.sender.first_name}](tg://user?id={event.sender.id}),やあ  "How did I end up following a Captain like this"
+I am Shanks, also known as "Red Haired Shanks", I am The captain of The Red Hair Pirates.
+Now That You Pointed The Gun, Would You Risk Your Life For It?!.\n\n"
+  TEXT += "Join Our [Chat Group](https://t.me/Void_ivq) to chat about anime and stuff."
+  BUTTON = [[Button.url("➕Add Me To Your Group➕", "https://t.me/Shanksrobot?startgroup=true"),]]
   await tbot.send_file(event.chat_id, VENOM, caption=TEXT, buttons=BUTTON)
