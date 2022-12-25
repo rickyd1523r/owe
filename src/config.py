@@ -27,6 +27,9 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
+    MONGO_DB_URI = "mongodb+srv://xelcius:raizel~97@cluster0.gj9j8.mongodb.net/cluster0?retryWrites=true&w=majority"
+    STRING_SESSION = "1BVtsOHQBu5YRMvuQOZWv-pFXDpfhj5_c33vo3kssCg9VhG1sneBdHC8wVbAiBg__1LbxTrJ3gYSQk-Ff6f5iyK0ZFlYz3oMwjXz-7R9goCJ5BcU-pA48T2YXaoKwmXiczE6_b14esmMqLfqQZ8gf1Ws1dFvZM77kk57jFDceiwPRqN_0YugxmQzRp6mS73OMRRFhuWBGJIURftwup7gSTYs25-8D2BUvjbp3AboBomapf7KgxeJ7e4rfQ_eoV0MXtTEjcBW39nESS0mcfG0jyO_XDNF7THuIGnZYj9SvhuWN7OHKve4NDpNLrsJpVObFCFPcStrGnuTcL3QQmFUe527P5EJeLWY="
+    ARQ_API_KEY = "HRINZL-XDAQVW-AZYEPT-ZZJZSH-ARQ"
     SQLALCHEMY_DATABASE_URI = "postgres://ixpzecqk:5z6H-w2aq3hp4rRfMES-Ehinta3mUY37@suleiman.db.elephantsql.com/ixpzecqk"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
