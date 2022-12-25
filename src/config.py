@@ -13,21 +13,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1606221784  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "excrybaby"
-    SUPPORT_CHAT = "emikosupport"  # Your own group for support, do not add the @
+    API_ID = 10872193  # integer value, dont use ""
+    API_HASH = "7a2c777e52479d13fb1adb29944130cf"
+    TOKEN = "5699376101:AAGtSMEy8LgqixXw2RV-Blyh7B_ZI-FCako"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5205602399  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "MolesteRishu"
+    SUPPORT_CHAT = "ShanksxDoffy_support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001432609692
+        -1001659204080
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001150905176
+        -1001659204080
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://ixpzecqk:5z6H-w2aq3hp4rRfMES-Ehinta3mUY37@suleiman.db.elephantsql.com/ixpzecqk"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -38,11 +38,11 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    DRAGONS = 1774127247 5194349852 1611359278 get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
     DEV_USERS = get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "supports")
+    DEMONS = 5375783497 5266361550 get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "tigers")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
@@ -61,7 +61,7 @@ class Config(object):
     )
     TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        "6950f559377140a4e1594c564cdca6a3"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
