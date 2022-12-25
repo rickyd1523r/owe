@@ -135,7 +135,7 @@ else:
     TOKEN = Config.TOKEN
 
     try:
-        Owner = int(Config.Owner)
+        Owner = int(5205602399)
     except ValueError:
         raise Exception("Your Owner variable is not a valid integer.")
 
