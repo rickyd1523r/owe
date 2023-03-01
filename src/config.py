@@ -13,12 +13,12 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID =   # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID =   # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "MolesteRishu"
-    SUPPORT_CHAT = "ShanksxDoffy_support"  # Your own group for support, do not add the @
+    API_ID = 9429810   # integer value, dont use ""
+    API_HASH = "06007846a1793a9883596434b299d0ed"
+    TOKEN = "5721204647:AAEqTwq_6iFTQaRWINpUzAKqBQrNYuklAqc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1611359278  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Ricky_animeboy"
+    SUPPORT_CHAT = "YonkoXHQ"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -27,9 +27,9 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    MONGO_DB_URI = ""
+    MONGO_DB_URI = "mongodb://mongo:tKbkdOu5qnQxVkwdubub@containers-us-west-62.railway.app:7006"
     STRING_SESSION = ""
-    ARQ_API_KEY = ""
+    ARQ_API_KEY = "RAOQXI-ELCWVX-HGSFGY-HVWNDD-ARQ"
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
